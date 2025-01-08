@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+
+/* Added Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kablammo:MORF@0..60&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
 
 * {
   padding: 0;
@@ -51,15 +56,446 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Sample CSS for the WHY word */
+/* CSS Compound Selectors to Randomize */
+
+.container > .word:nth-child(3n) > span:nth-child(5n + 2) {
+  background-color: #00fa9a;
+  font-weight: 700;
+  font-size: 3rem;
+  text-decoration: wavy line-through orange;
+}
+
+.container > .word:nth-child(4n) > span:nth-child(3n + 4) {
+  background-color: #fa8072;
+  color: hsl(180, 100%, 50%);
+  font-family: "Kablammo", sans-serif;
+  font-size: 50px;
+}
+
+.container > .word:nth-child(3n + 4) > span:nth-child(5n + 1) {
+  background-color: lavender;
+  font-family: "Hanalei Fill", sans-serif;
+  font-size: 40px;
+  text-decoration: double underline rgb(255, 20, 147);
+}
+
+/* CSS Border Color Styles */
+
+span.whyWLetter,
+span.developerDLetter,
+span.takeALetter,
+span.theirTLetter,
+span.skillsSLetter {
+  border: 4px solid rgb(255, 0, 0);
+}
+span.developerRLetter,
+span.question-mark,
+span.becauseCLetter,
+span.skillsKLetter,
+span.exclamation-mark {
+  border: 6px dotted #32cd32;
+}
+span.theELetter,
+span.developerPLetter,
+span.frontendNLetter,
+span.theyYLetter,
+span.improveRLetter {
+  border: 10px dashed hsl(340, 100%, 50%);
+}
+span.developerOLetter,
+span.takeKLetter,
+span.gardeningGTwoLetter,
+span.becauseALetter,
+span.improveMLetter {
+  border: 5px double #ffd700;
+}
+span.frontendDLetter,
+span.developerEThreeLetter,
+span.upPLetter,
+span.gardeningRLetter,
+span.wantedWLetter {
+  border: 4px groove rgb(255, 69, 0);
+}
+span.didILetter,
+span.developerVLetter,
+span.gardeningILetter,
+span.becauseETwoLetter,
+span.rootOTwoLetter {
+  border: 4px solid hsl(120, 100%, 50%);
+}
+span.developerLLetter,
+span.takeELetter,
+span.theyHLetter,
+span.theirILetter,
+span.skillsSTwoLetter {
+  border: 8px inset #8a2be2;
+}
+span.theHLetter,
+span.developerELetter,
+span.becauseBLetter,
+span.wantedELetter,
+span.theirELetter {
+  border: 10px outset #00ffff;
+}
+span.didDTwoLetter,
+span.takeTLetter,
+span.theyTLetter,
+span.improveVLetter,
+span.skillsLLetter {
+  border: 4px solid #ff1493;
+}
+span.whyYLetter,
+span.frontendOLetter,
+span.upULetter,
+span.improveELetter,
+span.rootOLetter {
+  border: 6px dotted #adff2f;
+}
+span.theTLetter,
+span.frontendRLetter,
+span.gardeningNTwoLetter,
+span.toTLetter,
+span.theyELetter {
+  border: 3px dashed #ff6347;
+}
+span.frontendTLetter,
+span.frontendNTwoLetter,
+span.wantedTLetter,
+span.improvePLetter,
+span.skillsILetter {
+  border: 5px double #7fff00;
+}
+span.toOLetter,
+span.hyphen,
+span.didDLetter,
+span.gardeningGLetter,
+span.rootTLetter {
+  border: 4px groove hsl(45, 100%, 50%);
+}
+span.frontendELetter,
+span.becauseELetter,
+span.becauseULetter,
+span.wantedALetter,
+span.improveILetter {
+  border: 4px ridge #ff00ff;
+}
+span.whyHLetter,
+span.gardeningELetter,
+span.becauseSLetter,
+span.wantedDLetter,
+span.theirRLetter {
+  border: 5px double rgb(0, 255, 255);
+}
+
+/* CSS Background Color Styles */
+
+span.didDTwoLetter,
+span.improveILetter,
+span.wantedDLetter,
+span.skillsSTwoLetter {
+  background-color: #ff4500;
+}
+span.theTLetter,
+span.takeELetter,
+span.gardeningNLetter,
+span.becauseCLetter {
+  background-color: gold;
+}
+span.whyYLetter,
+span.developerVLetter,
+span.upPLetter,
+span.improveRLetter {
+  background-color: hsl(280, 60%, 60%);
+}
+span.whyWLetter,
+span.developerLLetter,
+span.frontendRLetter,
+span.theyYLetter {
+  background-color: hsl(180, 100%, 50%);
+}
+span.developerELetter,
+span.gardeningGLetter,
+span.question-mark,
+span.becauseULetter {
+  background-color: #8a2be2;
+}
+span.developerDLetter,
+span.gardeningELetter,
+span.becauseETwoLetter,
+span.theirILetter {
+  background-color: tomato;
+}
+span.frontendOLetter,
+span.wantedWLetter,
+span.wantedNLetter,
+span.theirTLetter {
+  background-color: rgb(173, 255, 47);
+}
+span.didILetter,
+span.gardeningGTwoLetter,
+span.theyHLetter,
+span.improveELetter {
+  background-color: deeppink;
+}
+span.developerPLetter,
+span.wantedELetter,
+span.skillsKLetter,
+span.exclamation-mark {
+  background-color: rgb(72, 61, 139);
+}
+span.frontendFLetter,
+span.developerRLetter,
+span.improveOLetter,
+span.skillsILetter {
+  background-color: mistyrose;
+}
+span.theELetter,
+span.improveMLetter,
+span.theirELetter,
+span.skillsLTwoLetter {
+  background-color: rgb(245, 222, 179);
+}
+span.developerEThreeLetter,
+span.gardeningRLetter,
+span.toOLetter,
+span.rootOLetter {
+  background-color: rgb(124, 252, 0);
+}
+span.becauseBLetter,
+span.becauseELetter,
+span.theyTLetter,
+span.improveVLetter {
+  background-color: teal;
+}
+span.frontendTLetter,
+span.developerETwoLetter,
+span.gardeningNTwoLetter,
+span.rootOTwoLetter {
+  background-color: purple;
+}
+span.whyHLetter,
+span.takeTLetter,
+span.gardeningALetter,
+span.skillsSLetter {
+  background-color: hsl(54, 77%, 70%);
+}
+
+/* CSS Font Family Styles */
+
+.whyHLetter, .didDLetter, .frontendDLetter {
+  font-family: "Piazolla", sans-serif;
+}
+
+.didDTwoLetter, .whyHLetter {
+  font-family: "Ceviche One", sans-serif;
+}
+
+.frontendRLetter {
+  font-family: "Raleway Dots", sans-serif;
+}
+
+.frontendNLetter {
+  font-family: "Hanalei Fill", sans-serif;
+}
+
+.takeKLetter {
+  font-family: "Kablammo", sans-serif;
+}
+
+.gardeningGLetter {
+  font-family: "Inspiration", sans-serif;
+}
+
+.text-color-1 {
+  color: red;
+}
+.text-color-2 {
+  color: rgb(0, 128, 255);
+}
+.text-color-3 {
+  color: #32cd32;
+}
+.text-color-4 {
+  color: hsl(280, 50%, 50%);
+}
+.text-color-5 {
+  color: orange;
+}
+.text-color-6 {
+  color: rgb(255, 20, 147);
+}
+.text-color-7 {
+  color: #ffd700;
+}
+.text-color-8 {
+  color: hsl(180, 100%, 50%);
+}
+.text-color-9 {
+  color: navy;
+}
+.text-color-10 {
+  color: rgb(75, 0, 130);
+}
+.text-color-11 {
+  color: #ff4500;
+}
+.text-color-12 {
+  color: hsl(340, 80%, 50%);
+}
+.text-color-13 {
+  color: teal;
+}
+.text-color-14 {
+  color: rgb(124, 252, 0);
+}
+.text-color-15 {
+  color: #ff1493;
+}
+.text-color-16 {
+  color: hsl(45, 100%, 50%);
+}
+.text-color-17 {
+  color: purple;
+}
+.text-color-18 {
+  color: rgb(255, 105, 180);
+}
+.text-color-19 {
+  color: #8a2be2;
+}
+.text-color-20 {
+  color: hsl(300, 100%, 25%);
+}
+
+.bg-color-1 {
+  background-color: black;
+}
+.bg-color-2 {
+  background-color: rgb(240, 248, 255);
+}
+.bg-color-3 {
+  background-color: #00fa9a;
+}
+.bg-color-4 {
+  background-color: hsl(200, 100%, 85%);
+}
+.bg-color-5 {
+  background-color: crimson;
+}
+.bg-color-6 {
+  background-color: rgb(255, 239, 213);
+}
+.bg-color-7 {
+  background-color: #fa8072;
+}
+.bg-color-8 {
+  background-color: hsl(60, 100%, 90%);
+}
+.bg-color-9 {
+  background-color: lavender;
+}
+.bg-color-10 {
+  background-color: rgb(70, 130, 180);
+}
+.bg-color-11 {
+  background-color: #7fffd4;
+}
+.bg-color-12 {
+  background-color: hsl(100, 50%, 70%);
+}
+.bg-color-13 {
+  background-color: beige;
+}
+.bg-color-14 {
+  background-color: rgb(255, 248, 220);
+}
+.bg-color-15 {
+  background-color: #98fb98;
+}
+.bg-color-16 {
+  background-color: hsl(350, 100%, 90%);
+}
+.bg-color-17 {
+  background-color: mistyrose;
+}
+.bg-color-18 {
+  background-color: rgb(72, 61, 139);
+}
+.bg-color-19 {
+  background-color: #8b4513;
+}
+.bg-color-20 {
+  background-color: hsl(25, 75%, 50%);
+}
+
+.border-color-1 {
+  border-color: red;
+}
+.border-color-2 {
+  border-color: rgb(123, 104, 238);
+}
+.border-color-3 {
+  border-color: #40e0d0;
+}
+.border-color-4 {
+  border-color: hsl(160, 100%, 40%);
+}
+.border-color-5 {
+  border-color: chocolate;
+}
+.border-color-6 {
+  border-color: rgb(255, 69, 0);
+}
+.border-color-7 {
+  border-color: #ffdab9;
+}
+.border-color-8 {
+  border-color: hsl(280, 60%, 60%);
+}
+.border-color-9 {
+  border-color: lightseagreen;
+}
+.border-color-10 {
+  border-color: rgb(34, 139, 34);
+}
+.border-color-11 {
+  border-color: #1e90ff;
+}
+.border-color-12 {
+  border-color: hsl(300, 100%, 70%);
+}
+.border-color-13 {
+  border-color: darkolivegreen;
+}
+.border-color-14 {
+  border-color: rgb(255, 127, 80);
+}
+.border-color-15 {
+  border-color: #dc143c;
+}
+.border-color-16 {
+  border-color: hsl(240, 50%, 50%);
+}
+.border-color-17 {
+  border-color: peru;
+}
+.border-color-18 {
+  border-color: rgb(210, 105, 30);
+}
+.border-color-19 {
+  border-color: #8fbc8f;
+}
+.border-color-20 {
+  border-color: hsl(120, 100%, 25%);
+}
+
+/* WHY word */
 
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +504,6 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
 }
 
 .whyYLetter {
@@ -77,12 +512,12 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  color: black;
 }
 
 .didILetter {
