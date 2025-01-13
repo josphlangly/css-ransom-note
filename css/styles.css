@@ -280,32 +280,6 @@ span.skillsSLetter {
   background-color: hsl(54, 77%, 70%);
 }
 
-/* CSS Font Family Styles */
-
-.whyHLetter, .didDLetter, .frontendDLetter {
-  font-family: "Piazolla", sans-serif;
-}
-
-.didDTwoLetter, .whyHLetter {
-  font-family: "Ceviche One", sans-serif;
-}
-
-.frontendRLetter {
-  font-family: "Raleway Dots", sans-serif;
-}
-
-.frontendNLetter {
-  font-family: "Hanalei Fill", sans-serif;
-}
-
-.takeKLetter {
-  font-family: "Kablammo", sans-serif;
-}
-
-.gardeningGLetter {
-  font-family: "Inspiration", sans-serif;
-}
-
 .text-color-1 {
   color: red;
 }
@@ -489,6 +463,31 @@ span.skillsSLetter {
   border-color: hsl(120, 100%, 25%);
 }
 
+.whyWLetter, .theTLetter, .frontendNLetter, .developerDLetter, .developerPLetter, .takeELetter, .gardeningDLetter, .question-mark, .becauseSLetter, .wantedWLetter, .toTLetter, .improveOLetter, .theirILetter, .skillsSLetter {
+  font-family: "Piazzolla", sans-serif;
+}
+
+.whyHLetter, .theHLetter, .frontendTLetter, .developerELetter, .developerEThreeLetter, .upULetter, .gardeningELetter, .becauseBLetter, .becauseETwoLetter, .wantedALetter, .toOLetter, .improveVLetter, .theirRLetter, .skillsKLetter {
+  font-family: "Ceviche One", sans-serif;
+}
+
+.whyYLetter, .theELetter, .hyphen, .developerVLetter, .developerRLetter, .upPLetter, .gardeningNLetter, .becauseELetter, .theyTLetter, .wantedNLetter, .improveILetter, .improveELetter, .rootRLetter, .skillsILetter {
+  font-family: "Raleway Dots", sans-serif;
+}
+
+.didDLetter, .frontendFLetter, .frontendELetter, .developerETwoLetter, .takeTLetter, .gardeningGLetter, .gardeningILetter, .becauseCLetter, .theyHLetter, .wantedTLetter, .improveMLetter, .theirTLetter, .rootOLetter, .skillsLLetter {
+  font-family: "Hanalei Fill", sans-serif;
+}
+
+.didILetter, .frontendRLetter, .frontendNTwoLetter, .developerLLetter, .takeALetter, .gardeningALetter, .gardeningNTwoLetter, .becauseALetter, .theyELetter, .wantedELetter, .improvePLetter, .theirHLetter, .rootOTwoLetter, .skillsLTwoLetter {
+  font-family: "Kablammo", sans-serif;
+}
+
+.didDTwoLetter, .frontendOLetter, .frontendDLetter, .developerOLetter, .takeKLetter, .gardeningRLetter, .gardeningGTwoLetter, .becauseULetter, .theyYLetter, .wantedDLetter, .improveRLetter, .theirELetter, .rootTLetter, .skillsSTwoLetter {
+  font-family: "Inspiration", sans-serif;
+}
+
+
 /* WHY word */
 
 .whyWLetter {
@@ -517,223 +516,633 @@ span.skillsSLetter {
 /* DID word */
 
 .didDLetter {
-  color: black;
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .didILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .didDTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .theHLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .theELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendNLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendNTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .frontendDLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerVLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerETwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerLLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerPLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerEThreeLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .developerRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .takeALetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .takeKLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .takeELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .upPLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningALetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningDLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningNLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningNTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .gardeningGTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseCLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseALetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseULetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseSLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .becauseETwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theyHLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theyELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theyYLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .wantedALetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .wantedNLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .wantedTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .wantedELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .wantedDLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .toOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improveMLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improvePLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improveRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improveOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improveVLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .improveELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theirHLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theirELetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theirILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .theirRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .rootOLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .rootOTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .rootTLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .skillsKLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .skillsILetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .skillsLLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .skillsLTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .skillsSTwoLetter {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .exclamation-mark {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .question-mark {
+  font-size: 60px;
+  font-weight: normal;
+  color: coral;
+  text-decoration: none;
+  text-transform: uppercase;
 }
